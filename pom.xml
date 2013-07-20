@@ -85,6 +85,8 @@
 <!--
                     <argument>-verbose:gc</argument>
 -->
+                    <argument>-server</argument>
+                    <argument>-XX:+AggressiveOpts</argument>
                     <argument>-Xms2048m</argument>
                     <argument>-Xmx2048m</argument>
                     <argument>-jar</argument>
