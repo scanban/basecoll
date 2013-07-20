@@ -1,0 +1,257 @@
+# Measurement Section
+# Runtime (per iteration): 5s
+# Iterations: 3
+# Thread counts (concurrent threads per iteration): [1, 1, 1]
+# Threads will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Running: basecoll.bench.TroveBase.measureIntListJdkInsert
+# Warmup Iteration   1 (3s in 1 thread): 88,150 ops/sec
+# Warmup Iteration   2 (3s in 1 thread): 102,700 ops/sec
+# Warmup Iteration   3 (3s in 1 thread): 106,867 ops/sec
+# Warmup Iteration   4 (3s in 1 thread): 104,633 ops/sec
+# Warmup Iteration   5 (3s in 1 thread): 107,783 ops/sec
+Iteration   1 (5s in 1 thread): 103,950 ops/sec
+          GC | wall time = 5,002 secs,  GC time = 0,331 secs, GC% = 6,62%, GC count = +24
+             |
+
+Iteration   2 (5s in 1 thread): 106,250 ops/sec
+          GC | wall time = 5,008 secs,  GC time = 0,220 secs, GC% = 4,39%, GC count = +24
+             |
+
+Iteration   3 (5s in 1 thread): 104,650 ops/sec
+          GC | wall time = 5,007 secs,  GC time = 0,301 secs, GC% = 6,01%, GC count = +24
+             |
+
+
+Run result "measureIntListJdkInsert": 104,950 ▒(95%) 2,929 ▒(99%) 6,756 ops/sec
+Run statistics "measureIntListJdkInsert": min = 103,950, avg = 104,950, max = 106,250, stdev = 1,179
+Run confidence intervals "measureIntListJdkInsert": 95% [102,021, 107,879], 99% [98,194, 111,706]
+
+
+# Runtime (per iteration): 5s
+# Iterations: 3
+# Thread counts (concurrent threads per iteration): [1, 1, 1]
+# Threads will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Running: basecoll.bench.TroveBase.measureIntListJdkTraverse
+# Warmup Iteration   1 (3s in 1 thread): 733,600 ops/sec
+# Warmup Iteration   2 (3s in 1 thread): 745,583 ops/sec
+# Warmup Iteration   3 (3s in 1 thread): 746,067 ops/sec
+# Warmup Iteration   4 (3s in 1 thread): 746,267 ops/sec
+# Warmup Iteration   5 (3s in 1 thread): 762,350 ops/sec
+Iteration   1 (5s in 1 thread): 759,633 ops/sec
+Iteration   2 (5s in 1 thread): 781,050 ops/sec
+Iteration   3 (5s in 1 thread): 781,617 ops/sec
+
+Run result "measureIntListJdkTraverse": 774,100 ▒(95%) 31,133 ▒(99%) 71,809 ops/sec
+Run statistics "measureIntListJdkTraverse": min = 759,633, avg = 774,100, max = 781,617, stdev = 12,532
+Run confidence intervals "measureIntListJdkTraverse": 95% [742,967, 805,233], 99% [702,291, 845,909]
+
+
+# Runtime (per iteration): 5s
+# Iterations: 3
+# Thread counts (concurrent threads per iteration): [1, 1, 1]
+# Threads will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Running: basecoll.bench.TroveBase.measureIntListTroveInsert
+# Warmup Iteration   1 (3s in 1 thread): 389,050 ops/sec
+# Warmup Iteration   2 (3s in 1 thread): 426,200 ops/sec
+# Warmup Iteration   3 (3s in 1 thread): 427,950 ops/sec
+# Warmup Iteration   4 (3s in 1 thread): 428,300 ops/sec
+# Warmup Iteration   5 (3s in 1 thread): 426,833 ops/sec
+Iteration   1 (5s in 1 thread): 428,400 ops/sec
+          GC | wall time = 5,002 secs,  GC time = 0,019 secs, GC% = 0,38%, GC count = +32
+             |
+
+Iteration   2 (5s in 1 thread): 426,267 ops/sec
+          GC | wall time = 5,002 secs,  GC time = 0,016 secs, GC% = 0,32%, GC count = +32
+             |
+
+Iteration   3 (5s in 1 thread): 419,000 ops/sec
+          GC | wall time = 5,002 secs,  GC time = 0,015 secs, GC% = 0,30%, GC count = +32
+             |
+
+
+Run result "measureIntListTroveInsert": 424,556 ▒(95%) 12,243 ▒(99%) 28,239 ops/sec
+Run statistics "measureIntListTroveInsert": min = 419,000, avg = 424,556, max = 428,400, stdev = 4,928
+Run confidence intervals "measureIntListTroveInsert": 95% [412,313, 436,799], 99% [396,317, 452,794]
+
+
+# Runtime (per iteration): 5s
+# Iterations: 3
+# Thread counts (concurrent threads per iteration): [1, 1, 1]
+# Threads will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Running: basecoll.bench.TroveBase.measureIntListTroveTraverse
+# Warmup Iteration   1 (3s in 1 thread): 3378,000 ops/sec
+# Warmup Iteration   2 (3s in 1 thread): 3539,433 ops/sec
+# Warmup Iteration   3 (3s in 1 thread): 3545,033 ops/sec
+# Warmup Iteration   4 (3s in 1 thread): 3545,817 ops/sec
+# Warmup Iteration   5 (3s in 1 thread): 3549,117 ops/sec
+Iteration   1 (5s in 1 thread): 3547,617 ops/sec
+Iteration   2 (5s in 1 thread): 3550,267 ops/sec
+Iteration   3 (5s in 1 thread): 3548,533 ops/sec
+
+Run result "measureIntListTroveTraverse": 3548,806 ▒(95%) 3,343 ▒(99%) 7,712 ops/sec
+Run statistics "measureIntListTroveTraverse": min = 3547,617, avg = 3548,806, max = 3550,267, stdev = 1,346
+Run confidence intervals "measureIntListTroveTraverse": 95% [3545,462, 3552,149], 99% [3541,094, 3556,517]
+
+
+# Runtime (per iteration): 5s
+# Iterations: 3
+# Thread counts (concurrent threads per iteration): [1, 1, 1]
+# Threads will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Running: basecoll.bench.TroveBase.measureLongHashMapJdkInsert
+# Warmup Iteration   1 (3s in 1 thread): 14,300 ops/sec
+# Warmup Iteration   2 (3s in 1 thread): 19,633 ops/sec
+# Warmup Iteration   3 (3s in 1 thread): 14,800 ops/sec
+# Warmup Iteration   4 (3s in 1 thread): 24,867 ops/sec
+# Warmup Iteration   5 (3s in 1 thread): 25,133 ops/sec
+Iteration   1 (5s in 1 thread): 24,450 ops/sec
+          GC | wall time = 5,031 secs,  GC time = 0,881 secs, GC% = 17,51%, GC count = +29
+             |
+
+Iteration   2 (5s in 1 thread): 25,083 ops/sec
+          GC | wall time = 5,025 secs,  GC time = 0,736 secs, GC% = 14,65%, GC count = +31
+             |
+
+Iteration   3 (5s in 1 thread): 24,517 ops/sec
+          GC | wall time = 5,017 secs,  GC time = 0,867 secs, GC% = 17,28%, GC count = +30
+             |
+
+
+Run result "measureLongHashMapJdkInsert": 24,683 ▒(95%) 0,865 ▒(99%) 1,994 ops/sec
+Run statistics "measureLongHashMapJdkInsert": min = 24,450, avg = 24,683, max = 25,083, stdev = 0,348
+Run confidence intervals "measureLongHashMapJdkInsert": 95% [23,819, 25,548], 99% [22,689, 26,678]
+
+
+# Runtime (per iteration): 5s
+# Iterations: 3
+# Thread counts (concurrent threads per iteration): [1, 1, 1]
+# Threads will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Running: basecoll.bench.TroveBase.measureLongHashMapJdkSearch
+# Warmup Iteration   1 (3s in 1 thread): 59,717 ops/sec
+# Warmup Iteration   2 (3s in 1 thread): 67,600 ops/sec
+# Warmup Iteration   3 (3s in 1 thread): 67,867 ops/sec
+# Warmup Iteration   4 (3s in 1 thread): 67,533 ops/sec
+# Warmup Iteration   5 (3s in 1 thread): 67,667 ops/sec
+Iteration   1 (5s in 1 thread): 67,867 ops/sec
+          GC | wall time = 5,009 secs,  GC time = 0,006 secs, GC% = 0,12%, GC count = +12
+             |
+
+Iteration   2 (5s in 1 thread): 67,567 ops/sec
+          GC | wall time = 5,001 secs,  GC time = 0,006 secs, GC% = 0,12%, GC count = +11
+             |
+
+Iteration   3 (5s in 1 thread): 67,933 ops/sec
+          GC | wall time = 5,006 secs,  GC time = 0,005 secs, GC% = 0,10%, GC count = +12
+             |
+
+
+Run result "measureLongHashMapJdkSearch": 67,789 ▒(95%) 0,485 ▒(99%) 1,119 ops/sec
+Run statistics "measureLongHashMapJdkSearch": min = 67,567, avg = 67,789, max = 67,933, stdev = 0,195
+Run confidence intervals "measureLongHashMapJdkSearch": 95% [67,304, 68,274], 99% [66,670, 68,908]
+
+
+# Runtime (per iteration): 5s
+# Iterations: 3
+# Thread counts (concurrent threads per iteration): [1, 1, 1]
+# Threads will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Running: basecoll.bench.TroveBase.measureLongHashMapJdkTraverse
+# Warmup Iteration   1 (3s in 1 thread): 94,183 ops/sec
+# Warmup Iteration   2 (3s in 1 thread): 99,817 ops/sec
+# Warmup Iteration   3 (3s in 1 thread): 99,683 ops/sec
+# Warmup Iteration   4 (3s in 1 thread): 97,200 ops/sec
+# Warmup Iteration   5 (3s in 1 thread): 99,633 ops/sec
+Iteration   1 (5s in 1 thread): 99,850 ops/sec
+Iteration   2 (5s in 1 thread): 99,850 ops/sec
+Iteration   3 (5s in 1 thread): 99,583 ops/sec
+
+Run result "measureLongHashMapJdkTraverse": 99,761 ▒(95%) 0,382 ▒(99%) 0,882 ops/sec
+Run statistics "measureLongHashMapJdkTraverse": min = 99,583, avg = 99,761, max = 99,850, stdev = 0,154
+Run confidence intervals "measureLongHashMapJdkTraverse": 95% [99,379, 100,144], 99% [98,879, 100,643]
+
+
+# Runtime (per iteration): 5s
+# Iterations: 3
+# Thread counts (concurrent threads per iteration): [1, 1, 1]
+# Threads will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Running: basecoll.bench.TroveBase.measureLongHashMapTroveInsert
+# Warmup Iteration   1 (3s in 1 thread): 24,717 ops/sec
+# Warmup Iteration   2 (3s in 1 thread): 28,783 ops/sec
+# Warmup Iteration   3 (3s in 1 thread): 28,700 ops/sec
+# Warmup Iteration   4 (3s in 1 thread): 28,633 ops/sec
+# Warmup Iteration   5 (3s in 1 thread): 28,550 ops/sec
+Iteration   1 (5s in 1 thread): 28,767 ops/sec
+          GC | wall time = 5,006 secs,  GC time = 0,196 secs, GC% = 3,92%, GC count = +34
+             |
+
+Iteration   2 (5s in 1 thread): 28,717 ops/sec
+          GC | wall time = 5,014 secs,  GC time = 0,207 secs, GC% = 4,13%, GC count = +34
+             |
+
+Iteration   3 (5s in 1 thread): 28,767 ops/sec
+          GC | wall time = 5,007 secs,  GC time = 0,201 secs, GC% = 4,01%, GC count = +34
+             |
+
+
+Run result "measureLongHashMapTroveInsert": 28,750 ▒(95%) 0,072 ▒(99%) 0,165 ops/sec
+Run statistics "measureLongHashMapTroveInsert": min = 28,717, avg = 28,750, max = 28,767, stdev = 0,029
+Run confidence intervals "measureLongHashMapTroveInsert": 95% [28,678, 28,822], 99% [28,585, 28,915]
+
+
+# Runtime (per iteration): 5s
+# Iterations: 3
+# Thread counts (concurrent threads per iteration): [1, 1, 1]
+# Threads will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Running: basecoll.bench.TroveBase.measureLongHashMapTroveSearch
+# Warmup Iteration   1 (3s in 1 thread): 139,083 ops/sec
+# Warmup Iteration   2 (3s in 1 thread): 145,933 ops/sec
+# Warmup Iteration   3 (3s in 1 thread): 146,033 ops/sec
+# Warmup Iteration   4 (3s in 1 thread): 145,917 ops/sec
+# Warmup Iteration   5 (3s in 1 thread): 145,867 ops/sec
+Iteration   1 (5s in 1 thread): 145,883 ops/sec
+Iteration   2 (5s in 1 thread): 146,017 ops/sec
+Iteration   3 (5s in 1 thread): 145,900 ops/sec
+
+Run result "measureLongHashMapTroveSearch": 145,933 ▒(95%) 0,180 ▒(99%) 0,416 ops/sec
+Run statistics "measureLongHashMapTroveSearch": min = 145,883, avg = 145,933, max = 146,017, stdev = 0,073
+Run confidence intervals "measureLongHashMapTroveSearch": 95% [145,753, 146,114], 99% [145,517, 146,350]
+
+
+# Runtime (per iteration): 5s
+# Iterations: 3
+# Thread counts (concurrent threads per iteration): [1, 1, 1]
+# Threads will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Running: basecoll.bench.TroveBase.measureLongHashMapTroveTraverse
+# Warmup Iteration   1 (3s in 1 thread): 303,267 ops/sec
+# Warmup Iteration   2 (3s in 1 thread): 317,600 ops/sec
+# Warmup Iteration   3 (3s in 1 thread): 318,050 ops/sec
+# Warmup Iteration   4 (3s in 1 thread): 318,783 ops/sec
+# Warmup Iteration   5 (3s in 1 thread): 318,700 ops/sec
+Iteration   1 (5s in 1 thread): 318,483 ops/sec
+Iteration   2 (5s in 1 thread): 318,383 ops/sec
+Iteration   3 (5s in 1 thread): 318,717 ops/sec
+
+Run result "measureLongHashMapTroveTraverse": 318,528 ▒(95%) 0,425 ▒(99%) 0,980 ops/sec
+Run statistics "measureLongHashMapTroveTraverse": min = 318,383, avg = 318,528, max = 318,717, stdev = 0,171
+Run confidence intervals "measureLongHashMapTroveTraverse": 95% [318,103, 318,953], 99% [317,548, 319,508]
+
+
+Benchmark                                         Mode Thr    Cnt  Sec         Mean   Mean error    Units
+b.b.TroveBase.measureIntListJdkInsert            thrpt   1      3    5      104.950        6.756  ops/sec
+b.b.TroveBase.measureIntListJdkTraverse          thrpt   1      3    5      774.100       71.809  ops/sec
+b.b.TroveBase.measureIntListTroveInsert          thrpt   1      3    5      424.556       28.239  ops/sec
+b.b.TroveBase.measureIntListTroveTraverse        thrpt   1      3    5     3548.806        7.712  ops/sec
+b.b.TroveBase.measureLongHashMapJdkInsert        thrpt   1      3    5       24.683        1.994  ops/sec
+b.b.TroveBase.measureLongHashMapJdkSearch        thrpt   1      3    5       67.789        1.119  ops/sec
+b.b.TroveBase.measureLongHashMapJdkTraverse      thrpt   1      3    5       99.761        0.882  ops/sec
+b.b.TroveBase.measureLongHashMapTroveInsert      thrpt   1      3    5       28.750        0.165  ops/sec
+b.b.TroveBase.measureLongHashMapTroveSearch      thrpt   1      3    5      145.933        0.416  ops/sec
+b.b.TroveBase.measureLongHashMapTroveTraverse    thrpt   1      3    5      318.528        0.980  ops/sec
