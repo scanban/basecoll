@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class IntList {
-    private static final int INSERT_COUNT = 1_000_000;
+    public static final int INSERT_COUNT = 1_000_000;
 
     private static List<Integer> jdkList = new ArrayList<>();
     private static TIntArrayList troveList = new TIntArrayList();

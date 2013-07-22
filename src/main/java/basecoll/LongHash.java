@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LongHash {
-    private static final int INSERT_COUNT = 1_000_000;
+    public static final int INSERT_COUNT = 1_000_000;
 
     private static Map<Long, Long> jdkMap = new HashMap<>();
     private static TLongLongMap troveMap = new TLongLongHashMap();
@@ -47,12 +47,21 @@ public class LongHash {
         return rvalue;
     }
 
+    public static long jdkSearchNoLoop(long l) {
+        return jdkMap.get(l);
+    }
+
+
     public static long troveSearch() {
         long rvalue = 0;
         for(long l = 0; l < INSERT_COUNT; ++l) {
             rvalue += troveMap.get(l);
         }
         return rvalue;
+    }
+
+    public static long troveSearchNoLoop(long l) {
+        return troveMap.get(l);
     }
 
     public static long jdkEach() {
